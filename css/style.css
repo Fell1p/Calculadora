@@ -59,3 +59,13 @@ body{
     box-shadow: inset 1px 1px 2px #babecc, 
         inset -1px -1px 2px #fff;
   }
+
+.operacoes{
+    background-color: black;
+    color: rgb(214, 214, 214);
+}
+
+.tecla-limpar{
+    background-color: red;
+    color: rgb(214, 214, 214);;
+}
