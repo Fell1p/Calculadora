@@ -1,12 +1,10 @@
-const teclaNumero = document.querySelector(".num").value
+let display = document.querySelector("#display")
+let res = document.querySelector(".result")
 
-const operacao = document.querySelector(".operador")
+function calcular(){
+    
+    let resultado = eval(display.value)   
+    res.innerHTML = `${resultado}`
 
-const limpar = document.querySelector(".tecla-limpar")
-const igual = document.querySelector(".tecla-igual")
-
-let display = document.querySelector(".visor")
-
-function calcular(valor){
-    display.innerHTML += valor
+    console.log(resultado)
 }

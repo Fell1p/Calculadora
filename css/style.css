@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
 body{
     background-color: rgb(214, 214, 214);
     height: 100vh;
@@ -20,12 +23,17 @@ body{
 .visor{
     background-color: rgb(214, 214, 214);
     border-radius: 10px;
-    height: 50px;
+    border: none;
+    height: 70px;
     width: 250px;    
     margin-top: 35px;
     margin-bottom: 35px;
     box-shadow: inset 2px 2px 5px #babecc, 
     inset -5px -5px 10px #ffffff;
+    position: relative;
+    padding-left: 8px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif 
 }
 
 .teclas{
@@ -49,6 +57,7 @@ body{
     cursor: pointer;
     border-radius: 100%;
     background-color: rgb(214, 214, 214);
+    font-family: 'Oswald', sans-serif;
     
     box-shadow: 5px 5px 10px #b6acac, 
         -5px -5px 10px #faf4f4;
@@ -68,4 +77,12 @@ body{
 .tecla-limpar{
     background-color: red;
     color: rgb(214, 214, 214);;
+}
+
+.result{
+    position: absolute;
+    top: 200px;
+    left: 660px;
+    font-size: 30px;
+    font-weight: bold;
 }
