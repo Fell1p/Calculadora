@@ -17,7 +17,8 @@ body{
     align-items: center;
     flex-direction: column;
     border-radius: 10px;box-shadow: 5px 5px 10px #b6a9a9, 
-    -5px -5px 10px #ffffff;    
+    -5px -5px 10px #ffffff;   
+    position: relative; 
 }
 
 .visor{
@@ -30,11 +31,12 @@ body{
     margin-bottom: 35px;
     box-shadow: inset 2px 2px 5px #babecc, 
     inset -5px -5px 10px #ffffff;
-    position: relative;
+    
     padding-left: 8px;
     font-size: 20px;
     font-family: 'Oswald', sans-serif 
 }
+
 
 .teclas{
     background-color: rgb(214, 214, 214);
@@ -56,7 +58,6 @@ body{
     font-weight: bold;
     cursor: pointer;
     border-radius: 100%;
-    background-color: rgb(214, 214, 214);
     font-family: 'Oswald', sans-serif;
     
     box-shadow: 5px 5px 10px #b6acac, 
@@ -64,10 +65,19 @@ body{
     box-sizing:  border-box;    
 }
 
+.elementos.num{
+    background-color: rgb(214, 214, 214);
+}
+
+.elementos.operador{
+    background-color: black;
+    color: rgb(214, 214, 214);
+}
+
 .elementos:active {
     box-shadow: inset 1px 1px 2px #babecc, 
         inset -1px -1px 2px #fff;
-  }
+}
 
 .operacoes{
     background-color: black;
@@ -81,8 +91,11 @@ body{
 
 .result{
     position: absolute;
-    top: 193px;
-    left: 680px;
+    top: 58px;
+    left: 23px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
     font-size: 30px;
     font-weight: bold;
 }
