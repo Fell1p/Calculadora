@@ -2,7 +2,7 @@
 
 Link da página: https://fell1p.github.io/Calculadora/
 
-![Design sem nome](https://user-images.githubusercontent.com/99513670/201495557-bef3b3e7-fba5-4eb9-8e8c-5cf24c9a4c13.gif)
+![Design sem nome (1)](https://user-images.githubusercontent.com/99513670/201495894-f3266160-a76d-4bee-9efa-c7543196e8f4.gif)
 
 ## Sobre
 Calculadora que efetua operações básicas desenvolvida com base no projeto do Acervo Lima.
